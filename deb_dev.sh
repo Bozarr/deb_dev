@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# git
-exec apt install git -y
-
 # nvim
 exec apt install neovim -y
 
