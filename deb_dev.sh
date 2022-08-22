@@ -8,4 +8,4 @@ exec apt install firefox-esr -y
 
 # fish shell
 exec apt install fish -y
-usermod -s $(which fish) username
+exec usermod -s $(which fish) username
