@@ -31,8 +31,8 @@ echo Finished python installation
 # exec pip install qtile
 
 # configure user
-exec usermod -aG sudo ur
-exec usermod -s $(which fish) ur
+usermod -aG sudo ur
+usermod -s $(which fish) ur
 
 # install pycharm
 # see https://www.jetbrains.com/help/pycharm/installation-guide.html#33d56af2 for more info
