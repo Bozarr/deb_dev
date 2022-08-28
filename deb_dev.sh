@@ -17,7 +17,7 @@ apt install -y \
   htop \
   tmux \
   python3-pip \
-  libpangocairo-1.0-0 python3-xcffib python3-cairocffi # for qtile
+  libpangocairo-1.0-0 python3-cairocffi # for qtile python3-xcffib 
 
 echo Finished tools installation
 
