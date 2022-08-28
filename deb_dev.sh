@@ -16,6 +16,10 @@ apt install -y \
   xserver-xorg x11-xserver-utils xinit \
   htop \
   tmux \
+  python3-pip \
+  libpangocairo-1.0-0 python3-xcffib python3-cairocffi # for qtile
+
+echo Finished tools installation
 
 # python
 wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
@@ -23,8 +27,6 @@ tar xzf Python-*.tgz
 rm Python-*.tgz
 
 echo Finished python installation
-
-echo Finished tools installation
 
 exec pip install qtile
 
