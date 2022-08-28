@@ -28,7 +28,7 @@ rm Python-*.tgz
 
 echo Finished python installation
 
-exec pip install qtile
+# exec pip install qtile
 
 # configure user
 exec usermod -aG sudo ur
