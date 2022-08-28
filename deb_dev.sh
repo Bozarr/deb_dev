@@ -41,7 +41,7 @@ link=https://download.jetbrains.com/python/pycharm-community-2022.2.1.tar.gz
 wget $link
 # tar xzf pycharm-*.tar.gz -C <new_folder> --- with output option
 tar xzf pycharm-*.tar.gz
-rm pycharm-community-2022.2.1
+rm pycharm-community-2022.2.1.tar.gz
 
 # bind pycharm execution to qtile config Key([mod], "p", lazy.spawn("pycharm_directory/bin/pycharm.sh"))
 # bind firefox execution to qtile config Key([mod], "f", lazy.spawn(firefox))
