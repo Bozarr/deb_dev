@@ -36,7 +36,7 @@ usermod -s $(which fish) ur
 
 # install pycharm
 # see https://www.jetbrains.com/help/pycharm/installation-guide.html#33d56af2 for more info
-link=https://download.jetbrains.com/python/pycharm-community-2022.2.1.exe
+link=https://download.jetbrains.com/python/pycharm-community-2022.2.1.tar.gz
 # tar xzf pycharm-*.tar.gz -C <new_archive_folder> --- with output option
 wget $link
 # tar xzf pycharm-*.tar.gz -C <new_folder> --- with output option
